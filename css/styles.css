@@ -1,8 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
-* {
-  /* Making sure the padding and border are included in the total width and height of elements */
-  box-sizing: border-box; 
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 body,td,th,p{
