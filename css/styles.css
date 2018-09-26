@@ -1,5 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
+* {
+  /* Making sure the padding and border are included in the total width and height of elements */
+  box-sizing: border-box; 
+}
 
 body,td,th,p{
 	font-family: Arial, Helvetica, sans-serif;
