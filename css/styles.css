@@ -280,3 +280,35 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
+
+/* For small phones */
+@media only screen and (max-width : 480px) {
+    h1 {
+      background: #f18200;
+    }
+  }
+
+  /* For large screen phones */
+@media all and (min-width: 480px)
+  and (max-width: 768px) {
+    h1 {
+      background: #0275d8;
+    }
+}
+
+/* For tablets and laptops */
+@media only screen 
+  and (min-width: 768px) 
+  and (max-width: 1024px) {
+    h1 {
+      background: #aad802;
+    }
+}
+
+/* Large screens */
+@media screen 
+  and (min-width: 1024px) { 
+    h1 {
+      background: #d80214;
+    }
+}
