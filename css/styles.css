@@ -116,7 +116,7 @@ nav h1 a {
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
   width: 100%;
-  height: 50px;
+  padding: 1em 0;
   background-color: #3397DB;
   align-items: center;
   text-align: center;
@@ -294,7 +294,7 @@ nav h1 a {
 }
 
 /* For small phones */
-@media only screen and (max-width : 480px) {
+@media all and (max-width : 480px) {
     h1 {
       background: #f18200;
     }
@@ -303,6 +303,9 @@ nav h1 a {
     } 
     #restaurants-list li {
       max-width: 100%;
+    }
+    .inside #map-container {
+      width: 100%;
     }
   }
 
@@ -318,10 +321,14 @@ nav h1 a {
     #restaurants-list li {
       max-width: 100%;
     }
+
+    .inside #map-container {
+      width: 100%;
+    }
 }
 
 /* For tablets and laptops */
-@media only screen 
+@media all
   and (min-width: 768px) 
   and (max-width: 1024px) {
     h1 {
@@ -336,7 +343,7 @@ nav h1 a {
 }
 
 /* Large screens */
-@media screen 
+@media all 
   and (min-width: 1024px) { 
     h1 {
       background: #d80214;
@@ -348,19 +355,3 @@ nav h1 a {
       max-width: 300px;
     }
 }
-
-/* @media only screen and (min-width: 0px) {
-  #restaurants-list li {
-    max-width: 100%;
-  }
-}
-@media only screen and (min-width: 714px) {
-  #restaurants-list li {
-    max-width: 45%;
-  }
-}
-@media only screen and (min-width: 1032px) {
-  #restaurants-list li {
-    max-width: 300px;
-  }
-} */
