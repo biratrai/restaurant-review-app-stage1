@@ -39,7 +39,7 @@ self.addEventListener('install', function(event) {
 
 
 /**
- * Activation of service worker
+ * Activating the service worker
  */
 self.addEventListener('activate', function(event) {
     event.waitUntil(
