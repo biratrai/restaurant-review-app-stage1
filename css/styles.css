@@ -85,7 +85,7 @@ nav h1 a {
   background-color: #eee;
   font-size: 17px;
   margin: 0;
-  max-width: 100%;
+  width: 50%;
 }
 
 /* Display list items side by side */
@@ -260,7 +260,6 @@ nav h1 a {
   padding: 2px 0;
   text-align: center;
   text-transform: uppercase;
-	width: 90%;
 }
 #restaurant-container, #reviews-container {
   border-bottom: 1px solid #d9d9d9;
